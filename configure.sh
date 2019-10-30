@@ -127,6 +127,8 @@ apt-get -yq install bc
 # wmic for Linux
 apt-get -yq install wmis
 
+apt-get -yq install sublist3r
+
 # Update BurpSuite
 rm /usr/bin/burpsuite.old
 mv /usr/bin/burpsuite /usr/bin/burpsuite.old
@@ -202,6 +204,30 @@ git clone https://github.com/cobbr/SharpSploit
 cd ~/Tools
 # ReVBShell
 git clone https://github.com/bitsadmin/revbshell
+
+# BillCipher
+git clone https://github.com/GitHackTools/BillCipher.git
+
+# DNSmaper
+git clone https://github.com/le4f/dnsmaper.git
+
+# BruteDum
+git clone https://github.com/GitHackTools/BruteDum.git
+
+# Phantom Evasion
+git clone https://github.com/oddcod3/Phantom-Evasion.git
+
+# SecLists
+git clone https://github.com/danielmiessler/SecLists.git
+
+# TheFatRat
+git clone https://github.com/Screetsec/TheFatRat.git
+
+# WPscan
+git clone https://github.com/wpscanteam/wpscan.git
+
+# CMSmap
+git clone https://github.com/Dionach/CMSmap
 
 # Dirsearch
 git clone https://github.com/maurosoria/dirsearch
