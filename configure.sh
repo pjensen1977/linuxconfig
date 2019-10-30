@@ -140,6 +140,7 @@ cat >~/.vimrc << EOL
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+set mouse-=a
 EOL
 # Syntax highlighting
 # > PowerShell
